@@ -1,8 +1,8 @@
-teamlist = []
+colorlist = []
 repeat = "Y"
 while repeat == "Y":
-    name = input("Enter a name: ")
-    teamlist.append(name)
-    repeat = input("Do you want to add another name?(Y/N): ")
-for i in range(len(teamlist)):
-    print(i, teamlist[i])
+    color = input("Enter a color: ")
+    colorlist.append(color)
+    repeat = input("Do you want to add another color?(Y/N): ")
+for i in range(len(colorlist)):
+    print(i, colorlist[i])
